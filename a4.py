@@ -27,6 +27,9 @@ class TTTBoard:
         #otherwise make the move
         self.board[pos] = player 
         return True
+    
+    def has_won(self, player):
+        if 
 
 def play_tic_tac_toe() -> None:
     """Uses your class to play TicTacToe"""
